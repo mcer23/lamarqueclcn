@@ -1,0 +1,27 @@
+/* 
+1. Posicionamiento
+2. Box model
+3. tipografia
+4. estilos visuales(shadow box, border radius,etc.)
+5. Otros
+*/
+
+:root{
+    /* Colores */
+  --lightBlue: #A5C6CB;
+  --pink:#C5A3A8;
+  --green:#A1B79F;
+  --darkBlue:#4C5C73;
+  --yellow:#FFFBE5;
+  --button:#90C2BC;
+}
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+html{
+    font-size: 62.5%;
+    font-family: "Source Sans Pro",sans-serif;
+    background-color: #38373C;
+}
