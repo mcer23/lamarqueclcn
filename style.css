@@ -57,19 +57,7 @@ h1, h2{
     font-weight: 600;
 }
 /* PRODUCTOS */
-.card{
-    border: none;
-}
-.card-body{
-    padding-left: 15px;
-    
-}
-.card-body img{
-    padding-left: 30%;
-    width:100%;
-    min-width: 140px;
-    max-width: 218px;
-}
+
 h3{
     font-size: 1.2rem;
     font-weight: 400;
@@ -77,4 +65,50 @@ h3{
     text-align: center;
     color:#fff;
     padding-top:3px ;
+}
+/* PROMOCIONES */
+.card-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.lun-vier{
+    background-color: var(--pink);
+    width:50%;
+    min-width: 135px;
+    max-width:244px;
+    height:42px;
+    border-radius: 15px 15px 0px 0px;
+}
+.martes{
+    background-color: var(--lightBlue);
+    width:50%;
+    min-width: 135px;
+    max-width:244px;
+    height:42px;
+    border-radius: 15px 15px 0px 0px;
+}
+.miercoles{
+    background-color: var(--green);
+    width:50%;
+    min-width: 135px;
+    max-width:244px;
+    height:42px;
+    border-radius: 15px 15px 0px 0px;
+}
+.jueves{
+    background-color: var(--lightBlue);
+    width:50%;
+    min-width: 135px;
+    max-width:244px;
+    height:42px;
+    border-radius: 15px 15px 0px 0px;
+}
+.viernes{
+    background-color: var(--pink);
+    width:50%;
+    min-width: 135px;
+    max-width:244px;
+    height:42px;
+    border-radius: 15px 15px 0px 0px;
 }
