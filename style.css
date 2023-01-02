@@ -80,7 +80,16 @@ h3{
     flex-direction: row;
     justify-content: center;
     padding-top: 26px;
-    background-color:#90C2BC ;
+}
+.main--productos-button-link{
+    width:120px;
+    background-color: var(--button);
+    border-radius: 15px;
+    border:none;
+    color:#38373C;
+    font-size:1rem;
+    line-height:22.63px;
+    text-align:center
 }
 /* .main--productos-button-link{
     text-align: center;
