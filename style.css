@@ -28,115 +28,20 @@ html{
 a{
     text-decoration: none;
 }
-/*  HEADER */
-nav{
-    background-color: #38373C;
+/* Navbar */
+.container-fluid--logo{
+    width:102px;
+    height: auto;
 }
-.container-fluid img{
-    width:20%;
-    min-width: 102px;
-    max-width:211px;
+.navbar-toggler-icon{
+
 }
-.nav-item a{
-    color:#fff;
-}
-.nav-link img{
-    width:10%;
-    min-width:10px;
-    max-width: 30px;
-}
-.header--portada{
-    width:100%;
-    min-width:320px;
-    max-width:1280px ;
-}
-/* titulo */
-h1, h2{
-    padding-top:23px;
-    padding-left: 9px;
+
+/* titles */
+.main-intro--titles h1{
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 2.5rem;
     color:var(--yellow);
-    font-size: 1.2rem;
-    line-height: 15.08px;
-    font-weight: 600;
-}
-/* PRODUCTOS */
-.main--productos-subdiv img{
-    width:100%;
-    min-width: 140px;
-    max-width:218px;
-    padding-left: 90px;
-}
-h3{
-    font-size: 1.2rem;
-    font-weight: 400;
-    line-height: 15.08px;
     text-align: center;
-    color:#fff;
-    padding-top:3px ;
-}
-.main--productos-button{
-    min-width:199px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-top: 26px;
-}
-.main--productos-button-link{
-    width:120px;
-    background-color: var(--button);
-    border-radius: 15px;
-    border:none;
-    color:#38373C;
-    font-size:1rem;
-    line-height:22.63px;
-    text-align:center
-}
-/* .main--productos-button-link{
-    text-align: center;
-} */
-/* PROMOCIONES */
-.card-title{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.lun-vier{
-    background-color: var(--pink);
-    width:50%;
-    min-width: 135px;
-    max-width:244px;
-    height:42px;
-    border-radius: 15px 15px 0px 0px;
-}
-.martes{
-    background-color: var(--lightBlue);
-    width:50%;
-    min-width: 135px;
-    max-width:244px;
-    height:42px;
-    border-radius: 15px 15px 0px 0px;
-}
-.miercoles{
-    background-color: var(--green);
-    width:50%;
-    min-width: 135px;
-    max-width:244px;
-    height:42px;
-    border-radius: 15px 15px 0px 0px;
-}
-.jueves{
-    background-color: var(--lightBlue);
-    width:50%;
-    min-width: 135px;
-    max-width:244px;
-    height:42px;
-    border-radius: 15px 15px 0px 0px;
-}
-.viernes{
-    background-color: var(--pink);
-    width:50%;
-    min-width: 135px;
-    max-width:244px;
-    height:42px;
-    border-radius: 15px 15px 0px 0px;
 }
