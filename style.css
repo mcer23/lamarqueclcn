@@ -79,3 +79,17 @@ a{
     color:#fff;
     text-align: center;
 }
+.main-products--container-button{
+    width:199px;
+    height: 28px;
+    border-radius: 15px;
+    background-color: var(--button);
+}
+.main-products--button{
+    color:#38373C;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.7rem;
+    text-align: center;
+    text-decoration: none;
+}
