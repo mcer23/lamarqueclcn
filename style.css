@@ -33,13 +33,49 @@ a{
     width:102px;
     height: auto;
 }
-
+.navbar--ico{
+    width:27px;
+    height: 27px;
+}
+.nav-item a{
+    color: #fff;
+}
 
 /* titles */
+.main-intro--background{
+    width:100%;
+    min-width: 320px;
+    height: auto;
+    margin: 0 auto;
+}
 .main-intro--titles h1{
     font-size: 1.6rem;
     font-weight: 700;
     line-height: 2.5rem;
     color:var(--yellow);
+    text-align: center;
+}
+/* Productos */
+.main-products--container h2{
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    color:var(--yellow);
+    margin: 8px 15px;
+}
+.main-products--container-info-img{
+    width:140px;
+    height: auto;
+}
+.main-products--container-img{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: auto 15px;
+}
+.main-products--container-info-text{
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color:#fff;
     text-align: center;
 }
