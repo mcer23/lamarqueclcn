@@ -56,7 +56,7 @@ a{
     text-align: center;
 }
 /******************* PRODUCTOS **********************/
-.main-products--container h2{
+h2{
     font-size: 1.2rem;
     font-weight: 600;
     line-height: 1.5rem;
@@ -99,13 +99,6 @@ a{
     color:#38373C;
 }
 /******************** PROMOS *******************/
-.main-promos-container h2{
-    font-size: 1.2rem;
-    font-weight: 600;
-    line-height: 1.5rem;
-    color:var(--yellow);
-    margin: 8px 15px;
-}
 .card{
     border: none;
 }
@@ -156,4 +149,9 @@ a{
     line-height: 1.5rem;
     text-align: center;
     color:#fff;
+}
+/******************** SUCURSALES *******************/
+.card-table{
+    border:1px solid yellow;
+    margin-bottom: 10px;
 }
