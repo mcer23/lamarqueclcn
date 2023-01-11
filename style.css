@@ -41,7 +41,7 @@ a{
     color: #fff;
 }
 
-/* titles */
+/******************* TITLES ************************/
 .main-intro--background{
     width:100%;
     min-width: 320px;
@@ -55,7 +55,7 @@ a{
     color:var(--yellow);
     text-align: center;
 }
-/* Productos */
+/******************* PRODUCTOS **********************/
 .main-products--container h2{
     font-size: 1.2rem;
     font-weight: 600;
@@ -79,17 +79,41 @@ a{
     color:#fff;
     text-align: center;
 }
-.main-products--container-button{
-    width:199px;
+.main-products--container-button button{ /*REVISAR ALINEADO*/
+    width: 70%;
+    min-width:199px;
+    max-width:292px;
     height: 28px;
-    border-radius: 15px;
-    background-color: var(--button);
+    margin:0 auto;
+    
+    
 }
 .main-products--button{
-    color:#38373C;
+    border-radius: 15px;
+    border: transparent;
+    background-color: var(--button);
     font-size: 1.4rem;
     font-weight: 600;
     line-height: 1.7rem;
     text-align: center;
-    text-decoration: none;
+    color:#38373C;
+}
+/******************** PROMOS *******************/
+.main-promos-container h2{
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    color:var(--yellow);
+    margin: 8px 15px;
+}
+.card-img-top{
+    width: 100%;
+    min-width: 131px;
+    max-width:240px;
+    height: auto;
+}
+.promos-container--cards{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: auto 15px;
 }
