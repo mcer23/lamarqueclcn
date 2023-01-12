@@ -84,9 +84,7 @@ h2{
     min-width:199px;
     max-width:292px;
     height: 28px;
-    margin:0 auto;
-    
-    
+    margin:0 auto; 
 }
 .main-products--button{
     border-radius: 15px;
@@ -99,7 +97,7 @@ h2{
     color:#38373C;
 }
 /******************** PROMOS *******************/
-.card{
+.promo-cards{
     border: none;
 }
 .card-img-top{
@@ -151,7 +149,31 @@ h2{
     color:#fff;
 }
 /******************** SUCURSALES *******************/
-.card-table{
-    border:1px solid yellow;
-    margin-bottom: 10px;
+.location-cards{
+    width:100%;
+    min-width:191px;
+    max-width:240px;
+    height: 309px;
+    margin: 10px auto;
+    padding-bottom: 4px;
+}
+.ctbgreen{
+    background-color: var(--green);
+
+}
+.ctbblue{
+    background-color: var(--lightBlue);
+}
+.ctbpink{
+    background-color: var(--pink);
+}
+.card-table-text{
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color:#fff;
+}
+.phone{
+    background-image: url('./multimedia/ico/SUCURSALES/PHONE.svg');
+    background-repeat: no-repeat;
 }
