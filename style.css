@@ -112,7 +112,7 @@ h2{
     margin: auto 15px;
     row-gap: 19px;
 }
-.promos-container--cards .card{
+.promos-container--cards .promo-cards{
     border-radius: 15px 15px 0px 0px; 
 }
 .card--title h3{
@@ -141,7 +141,7 @@ h2{
     border: 2px solid var(--green);
     background-color: var(--green);
 }
-.card-text{
+.text--body{
     font-size: 1.2rem;
     font-weight: 400;
     line-height: 1.5rem;
@@ -149,31 +149,31 @@ h2{
     color:#fff;
 }
 /******************** SUCURSALES *******************/
-.location-cards{
+.location--title{
     width:100%;
     min-width:191px;
     max-width:240px;
-    height: 309px;
-    margin: 10px auto;
-    padding-bottom: 4px;
+    height: 200px;
+    margin: 0 auto;
+    padding-bottom: 15px;
 }
-.ctbgreen{
-    background-color: var(--green);
-
-}
-.ctbblue{
-    background-color: var(--lightBlue);
-}
-.ctbpink{
-    background-color: var(--pink);
-}
-.card-table-text{
+.card-text{
+    width: 100%;
+    min-width: 136px;
+    max-width: 244px;
+    margin:12px 0;
     font-size: 1.2rem;
     font-weight: 400;
     line-height: 1.5rem;
-    color:#fff;
+    color: #fff;
 }
-.phone{
-    background-image: url('./multimedia/ico/SUCURSALES/PHONE.svg');
-    background-repeat: no-repeat;
+.ctbgreen{
+    background-color: var(--green);
+}
+/******************** FOOTER *******************/
+.footer-container{
+    width:100%;
+    min-width: 320px;
+    max-width: 1440px;
+    height: auto;
 }
